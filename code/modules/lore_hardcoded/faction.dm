@@ -247,7 +247,7 @@
 	It's extensive military forces are no strangers to what conflict is to be found among the stars, and are supported by a deeply rooted network \
 	of military-operated research and development laboratories throughout their many territories, as well as close working partnerships with many of their own \
 	megacorporations as contractors for developing and manufacturing new technologies."
-	contractor_info = "Enlisted or otherwise, the Orion Confederacy Military Researcher Corps has assigned you to further develop your field research within a corporate facility owned by a trusted industry partner, NanoTrasen Inc. for it's unique capabilities. Make the most of this opportunity, but remember that you're now within a corporate setting."
+	contractor_info = "Whether you are an officer or civilian contractor, the Orion Confederacy Military Researcher Corps has assigned you to further develop your field research within a corporate facility owned by a trusted industry partner, NanoTrasen Inc. for it's unique capabilities. Make the most of this opportunity, but remember that you're now within a corporate setting."
 	job_whitelist = list(
 		JOB_ID_FIELD_MEDIC,
 		JOB_ID_MEDICAL_DOCTOR,
@@ -269,7 +269,7 @@
 	Despite it's tendency towards diplomatic resolutions whenever possible, the Combine maintains a fearsome military force of it's own,  \
 	which holds an ever-sharp technological edge given their ceaseless research and development efforts. During peacetime, their scientific and exploration corps \
 	can often be found investigating every last corner of Combine space for useful insights."
-	contractor_info = "Enlisted or otherwise, the Vikara Combine's close alliance with the Orion Confederation has afforded you the opportunity to continue your field research within a corporate Phoron research facility in Confederation space. However, don't forget that your actions will reflect the Combine in the eyes of our allies, for better or worse."
+	contractor_info = "Whether you are an officer or civilian contractor, the Vikara Combine's close alliance with the Orion Confederation has afforded you the opportunity to continue your field research within a corporate Phoron research facility in Confederation space. However, don't forget that your actions will reflect the Combine in the eyes of our allies, for better or worse."
 	job_whitelist = list(
 		JOB_ID_FIELD_MEDIC,
 		JOB_ID_MEDICAL_DOCTOR,
