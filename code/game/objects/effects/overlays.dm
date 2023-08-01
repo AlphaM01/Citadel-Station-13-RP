@@ -79,6 +79,10 @@
 	icon = 'icons/turf/snow_new.dmi'
 	icon_state = "snow_edges"
 
+/obj/effect/overlay/snow/floor/corners_new
+	icon = 'icons/turf/snow_new.dmi'
+	icon_state = "snow_corners"
+
 /obj/effect/overlay/snow/floor/surround_new
 	icon = 'icons/turf/snow_new.dmi'
 	icon_state = "snow_surround"
