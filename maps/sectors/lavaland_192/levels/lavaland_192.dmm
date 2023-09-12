@@ -70,7 +70,7 @@
 	req_one_access = list(48)
 	},
 /obj/machinery/door/airlock/multi_tile/glass{
-	dir = 2;
+	dir = 4;
 	name = "Dorms";
 	req_access = list(48)
 	},
@@ -369,7 +369,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 1;
 	pixel_y = -23;
 	req_one_access = list(48)
@@ -543,7 +543,7 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 4;
 	pixel_x = -27;
 	req_one_access = list(48)
@@ -894,10 +894,10 @@
 	initialize_directions = 1;
 	internal_pressure_bound = 4000;
 	internal_pressure_bound_default = 4000;
+	on = 1;
 	pressure_checks = 2;
 	pressure_checks_default = 2;
-	pump_direction = 0;
-	use_power = 1
+	pump_direction = 0
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/lavaland/central/base/common)
@@ -994,7 +994,7 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 4;
 	pixel_x = -27;
 	req_one_access = list(48)
@@ -1076,7 +1076,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 4;
 	pixel_x = -27;
 	req_one_access = list(48)
@@ -1142,7 +1142,7 @@
 /area/lavaland/central/base/common)
 "uE" = (
 /obj/structure/closet/crate/bin,
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	pixel_y = 22;
 	req_one_access = list(48)
 	},
@@ -1321,7 +1321,7 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 1;
 	pixel_y = -23;
 	req_one_access = list(48)
@@ -1465,7 +1465,7 @@
 	req_one_access = list(48)
 	},
 /obj/machinery/door/airlock/multi_tile/glass{
-	dir = 2;
+	dir = 4;
 	name = "Lounge";
 	req_access = list(48)
 	},
@@ -1553,7 +1553,7 @@
 /turf/simulated/wall/r_wall,
 /area/lavaland/central/base/common)
 "Em" = (
-/obj/machinery/door/firedoor/multi_tile{
+/obj/machinery/door/firedoor{
 	req_one_access = list(48)
 	},
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -1625,7 +1625,7 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	pixel_y = 22;
 	req_one_access = list(48)
 	},
@@ -1712,7 +1712,7 @@
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 1;
 	pixel_y = -23;
 	req_one_access = list(48)
@@ -1823,7 +1823,7 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 1;
 	pixel_y = -23;
 	req_one_access = list(48)
@@ -1906,6 +1906,14 @@
 	},
 /turf/simulated/floor/outdoors/lava/lavaland,
 /area/lavaland/central/explored)
+"Ot" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor{
+	req_one_access = list(48)
+	},
+/turf/simulated/floor/tiled,
+/area/lavaland/central/base/common)
 "Ow" = (
 /obj/machinery/button/remote/airlock{
 	id = "mine_orange";
@@ -1944,7 +1952,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	pixel_y = 22;
 	req_one_access = list(48)
 	},
@@ -1978,7 +1986,7 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/lavaland/central/base/common)
 "Qs" = (
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	pixel_y = 22;
 	req_one_access = list(48)
 	},
@@ -2176,7 +2184,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	pixel_y = 22;
 	req_one_access = list(48)
 	},
@@ -2202,7 +2210,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 1;
 	pixel_y = -23;
 	req_one_access = list(48)
@@ -2241,7 +2249,7 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 4;
 	pixel_x = -27;
 	req_one_access = list(48)
@@ -2520,7 +2528,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/alarm/alarms_hidden{
+/obj/machinery/air_alarm/alarms_hidden{
 	dir = 1;
 	pixel_y = -23;
 	req_one_access = list(48)
@@ -11865,7 +11873,7 @@ EX
 db
 ZZ
 QR
-QR
+Ot
 QR
 La
 QR
