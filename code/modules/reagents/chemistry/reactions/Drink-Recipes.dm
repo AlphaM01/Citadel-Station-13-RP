@@ -1951,6 +1951,34 @@
 	required_reagents = list("caramelwhiskey" = 1, "cider" = 2)
 	result_amount = 3
 
+/datum/chemical_reaction/drinks/peppermintmartini
+	name = "Peppermint Martini"
+	id = "peppermintmartini"
+	result = "peppermintmartini"
+	required_reagents = list("peppermintschnapps" = 1, "vodka" = 1, "cream" = 1)
+	result_amount = 3
+
+/datum/chemical_reaction/drinks/stinger
+	name = "Stinger"
+	id = "Stinger"
+	result = "Stinger"
+	required_reagents = list("peppermintschnapps" = 1, "cognac" = 3)
+	result_amount = 4
+
+/datum/chemical_reaction/drinks/naughtygirlscout
+	name = "Naughty Girl Scout"
+	id = "naughtygirlscout"
+	result = "naughtygirlscout"
+	required_reagents = list("peppermintschnapps" = 1, "kahlua" = 1, "irishcream" = 1)
+	result_amount = 3
+
+/datum/chemical_reaction/drinks/timberwolf
+	name = "Timberwolf"
+	id = "timberwolf"
+	result = "timberwolf"
+	required_reagents = list("peppermintschnapps" = 1, "goldschlager" = 1)
+	result_amount = 2
+
 //Seasonals - Halloween
 
 /datum/chemical_reaction/drinks/appletini

@@ -3114,14 +3114,14 @@
 /datum/reagent/ethanol/goldschlager
 	name = "Goldschlager"
 	id = "goldschlager"
-	description = "100 proof cinnamon schnapps, made for alcoholic teen girls on spring break."
+	description = "100 proof cinnamon schnapps, made for alcoholic college girls on spring break."
 	taste_description = "burning cinnamon"
 	taste_mult = 1.3
 	color = "#F4E46D"
 	proof = VODKA
 
 	glass_name = "Goldschlager"
-	glass_desc = "100 proof that teen girls will drink anything with gold in it."
+	glass_desc = "100 proof that college girls will drink anything with gold in it."
 
 /datum/reagent/ethanol/hippies_delight
 	name = "Hippies' Delight"
@@ -5389,6 +5389,50 @@
 
 	glass_name = "Salted Caramel Cider"
 	glass_desc = "The sweet union of crisp apple and smooth caramel. And alcohol, obviously."
+
+/datum/reagent/ethanol/peppermintmartini
+	name = "Peppermint Martini"
+	id = "peppermintmartini"
+	description = "A simple holiday cocktail that essentially dilutes high-proof peppermint schnapps to a drinkable level."
+	taste_description = "minty alcohol"
+	color = "#dddddd"
+	proof = (100+VODKA)/3
+
+	glass_name = "Peppermint Martini"
+	glass_desc = "If it goes in the V-shaped glass, it's a Martini. This one even has a colored sugar rim."
+
+/datum/reagent/ethanol/stinger
+	name = "Stinger"
+	id = "stinger"
+	description = "A classic cocktail which became associated with high society during the early 1900s"
+	taste_description = "smooth alcohol with an icy finish"
+	color = "#dda045"
+	proof = (100+COGNAC*3)/4
+
+	glass_name = "Stinger"
+	glass_desc = "You feel like some kind of 1920s tycoon just by holding this."
+
+/datum/reagent/ethanol/naughtygirlscout
+	name = "Naughty Girl Scout"
+	id = "naughtygirlscout"
+	description = "A cocktail leveraging peppermint's interplay with coffee and chocolate flavors."
+	taste_description = "boozy thin mint cookies"
+	color = "#35210b"
+	proof = (100+KAHLUA+IRISH_CREAM)/3
+
+	glass_name = "Naughty Girl Scout"
+	glass_desc = "The classic mint and chocolate pairing, but now in alcoholic form."
+
+/datum/reagent/ethanol/timberwolf
+	name = "Timberwolf"
+	id = "timberwolf"
+	description = "The predictable end result of providing goldschlager-drinking college girls with another, even stronger liqueur."
+	taste_description = "searing peppermint and cinnamon"
+	color = "#fff8c4"
+	proof = (100+VODKA)/2
+
+	glass_name = "Timberwolf"
+	glass_desc = "A shot glass should be enough to make you reconsider your life choices."
 
 // Seasonals - Halloween
 
