@@ -2600,16 +2600,6 @@
 
 #define SCHNAPPS 60
 
-/datum/reagent/ethanol/peppermintschnapps
-	name = "Peppermint Schnapps"
-	id = "schnapps_pep"
-	description = "A flavoured grain liqueur with a fresh, minty taste."
-	taste_description = "minty"
-	proof = SCHNAPPS
-
-	glass_name = "Peppermint Schnapps"
-	glass_desc = "A flavoured grain liqueur with a fresh, minty taste."
-
 /datum/reagent/ethanol/peachschnapps
 	name = "Peach Schnapps"
 	id = "schnapps_pea"
@@ -5340,6 +5330,17 @@
 
 	glass_name = "Caramel Whiskey"
 	glass_desc = "A cloyingly sweet mixture of whiskey and salted caramel."
+
+/datum/reagent/ethanol/peppermintschnapps
+	name = "Peppermint Schnapps"
+	id = "peppermintschnapps"
+	description = "A mint-flavored drink bottled at much higher proof than usual liqueurs."
+	taste_description = "concentrated mint"
+	color = "#dddddd"
+	proof = 100 // Yes, this is a 50% ABV liqueur
+
+	glass_name = "Peppermint Schnapps"
+	glass_desc = "A surprisingly potent liqueur with a bracing, icy flavor."
 
 /datum/reagent/ethanol/caramel_russian
 	name = "Caramel White Russian"
