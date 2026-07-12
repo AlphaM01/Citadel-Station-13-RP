@@ -19,7 +19,7 @@
 	   		/obj/item/reagent_containers/food/drinks/cans/robustexpresspeppermint = 10
 	  	),
 		HOLIDAY_HALLOWEEN = list(
-			/obj/item/reagent_containers/food/drinks/cans/robustexpress = 10
+			/obj/item/reagent_containers/food/drinks/cans/robustexpresspumpkin = 10
 	  	)
 	)
 	contraband = list(

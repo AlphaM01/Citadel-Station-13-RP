@@ -5384,6 +5384,18 @@
 	glass_desc = "A glass of limited-edition Dr. Gibb Mystery."
 	glass_special = list(DRINK_FIZZ)
 
+/datum/reagent/drink/coffee/pumpkin_latte
+	name = "Pumpkin Spice Latte"
+	id = "pumpkin_latte"
+	description = "A nice, tasty beverage for the halloween season."
+	taste_description = "cinnamon, cloves and nutmeg"
+	color = "#ad6322"
+	adj_temp = 5
+	nutrition = 1
+
+	glass_name = "Pumpkin Spice Latte"
+	glass_desc = "A nice, tasty beverage for the halloween season."
+
 /datum/reagent/ethanol/sourappleschnapps
 	name = "Sour Apple Schnapps"
 	id = "sourappleschnapps"
