@@ -4787,17 +4787,6 @@
 	glass_name = "Negroni Sbagliato"
 	glass_desc = "Bubbles constantly pop up to the surface with a quiet fizz."
 
-/datum/reagent/ethanol/fusionnaire
-	name = "Fusionnaire"
-	id = "fusionnaire"
-	description = "The one true elusive, some even consider it never existed!"
-	taste_description = "strong currents of fresh zesty winds"
-	color = "#E6E2AA"
-	proof = (VODKA*2+SCHNAPPS*2+RUM)/9
-
-	glass_name = "Fusionnaire"
-	glass_desc = "The one true elusive, lighter than air, harder than the mountains!"
-
 /datum/reagent/ethanol/originalsin
 	name = "Original Sin"
 	id = "originalsin"
