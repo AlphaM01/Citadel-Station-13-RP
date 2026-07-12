@@ -69,6 +69,15 @@
 		/obj/item/glass_extra/straw = 30,
 		/obj/item/storage/single_use/med_pouch/overdose = 2,
 	)
+	holiday_products = list(
+	  	HOLIDAY_CHRISTMAS = list(
+	    	/obj/item/reagent_containers/food/drinks/bottle/caramelwhiskey = 5
+	  	),
+		HOLIDAY_HALLOWEEN = list(
+	    	/obj/item/reagent_containers/food/drinks/bottle/sourappleschnapps = 5,
+			/obj/item/reagent_containers/food/drinks/bottle/candycornvodka = 5
+	  	)
+	)
 	contraband = list()
 	vend_delay = 15
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
