@@ -21,7 +21,6 @@
 		/obj/item/reagent_containers/food/drinks/bottle/grenadine = 5,
 		/obj/item/reagent_containers/food/drinks/bottle/kahlua = 5,
 		/obj/item/reagent_containers/food/drinks/bottle/melonliquor = 5,
-		/obj/item/reagent_containers/food/drinks/bottle/peppermintschnapps = 5,
 		/obj/item/reagent_containers/food/drinks/bottle/peachschnapps = 5,
 		/obj/item/reagent_containers/food/drinks/bottle/lemonadeschnapps = 5,
 		/obj/item/reagent_containers/food/drinks/bottle/rum = 5,
@@ -71,7 +70,8 @@
 	)
 	holiday_products = list(
 	  	HOLIDAY_CHRISTMAS = list(
-	    	/obj/item/reagent_containers/food/drinks/bottle/caramelwhiskey = 5
+	    	/obj/item/reagent_containers/food/drinks/bottle/caramelwhiskey = 5,
+	    	/obj/item/reagent_containers/food/drinks/bottle/peppermintschnapps = 5
 	  	),
 		HOLIDAY_HALLOWEEN = list(
 	    	/obj/item/reagent_containers/food/drinks/bottle/sourappleschnapps = 5,

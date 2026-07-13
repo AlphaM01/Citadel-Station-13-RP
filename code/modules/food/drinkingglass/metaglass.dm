@@ -1045,6 +1045,21 @@ Drinks Data
 /datum/reagent/ethanol/caramel_cider
 	glass_icon_state = "caramelciderglass"
 
+/datum/reagent/ethanol/peppermintmartini
+	glass_icon_state = "peppermintmartini"
+
+/datum/reagent/ethanol/stinger
+	glass_icon_state = "stinger"
+	glass_center_of_mass = list("x"=16, "y"=8)
+
+/datum/reagent/ethanol/naughtygirlscout
+	glass_icon_state = "naughtygirlscout"
+	glass_center_of_mass = list("x"=16, "y"=7)
+
+/datum/reagent/ethanol/timberwolf
+	glass_icon_state = "timberwolf"
+	glass_center_of_mass = list("x"=16, "y"=8)
+
 //Seasonals - Halloween
 
 /datum/reagent/ethanol/sourappleschnapps
