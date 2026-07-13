@@ -34,6 +34,8 @@
 		/obj/item/reagent_containers/food/drinks/bottle/wine = 5,
 		/obj/item/reagent_containers/food/drinks/bottle/whitewine = 5,
 		/obj/item/reagent_containers/food/drinks/bottle/bitters = 5,
+		/obj/item/reagent_containers/food/drinks/bottle/goldschlager = 1,
+		/obj/item/reagent_containers/food/drinks/bottle/patron = 1,
 		/obj/item/reagent_containers/food/drinks/bottle/victory_gin = 3,
 		/obj/item/reagent_containers/food/drinks/bottle/messa_mead = 3,
 		/obj/item/reagent_containers/food/drinks/bottle/small/ale = 15,

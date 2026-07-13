@@ -160,7 +160,7 @@
 
 /obj/item/reagent_containers/food/drinks/bottle/peppermintschnapps
 	name = "Knight & Weiss Peppermint Schnapps"
-	desc = "A very refined-looking bottle of imported mint liqueur.\
+	desc = "A very refined-looking bottle of imported mint liqueur.<br>\
 	It has a Gilthari Exports sticker on it."
 	icon_state = "peppermintschnapps"
 	center_of_mass = list("x"=17, "y"=3)

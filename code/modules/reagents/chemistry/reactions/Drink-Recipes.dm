@@ -1960,8 +1960,8 @@
 
 /datum/chemical_reaction/drinks/stinger
 	name = "Stinger"
-	id = "Stinger"
-	result = "Stinger"
+	id = "stinger"
+	result = "stinger"
 	required_reagents = list("peppermintschnapps" = 1, "cognac" = 3)
 	result_amount = 4
 

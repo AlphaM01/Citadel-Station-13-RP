@@ -5406,7 +5406,7 @@
 	id = "stinger"
 	description = "A classic cocktail which became associated with high society during the early 1900s"
 	taste_description = "smooth alcohol with an icy finish"
-	color = "#dda045"
+	color = "#683913"
 	proof = (100+COGNAC*3)/4
 
 	glass_name = "Stinger"
