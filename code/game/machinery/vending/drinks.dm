@@ -31,7 +31,8 @@
 		/obj/item/reagent_containers/food/drinks/h_chocolate = 3,
 		/obj/item/reagent_containers/food/drinks/cans/robustexpress = 2,
 		/obj/item/reagent_containers/food/drinks/cans/robustexpresslatte = 2,
-	   	/obj/item/reagent_containers/food/drinks/cans/robustexpresspeppermint = 2,
+	   	/obj/item/reagent_containers/food/drinks/cans/robustexpresspeppermint = 3,
+		/obj/item/reagent_containers/food/drinks/cans/robustexpresspumpkin = 3,
 		/obj/item/reagent_containers/food/drinks/ice = 1
 	)
 
@@ -102,10 +103,10 @@
 		/obj/item/reagent_containers/food/drinks/cans/cola_cherry = 2,
 		/obj/item/reagent_containers/food/drinks/cans/cola_coffee = 2,
 		/obj/item/reagent_containers/food/drinks/cans/robustexpressiced = 2,
-		/obj/item/reagent_containers/food/drinks/cans/cola_cinnamon = 2,
-		/obj/item/reagent_containers/food/drinks/cans/space_upcranberry = 2,
-	    /obj/item/reagent_containers/food/drinks/cans/cola_licorice = 2,
-		/obj/item/reagent_containers/food/drinks/cans/dr_gibb_mystery = 2,
+		/obj/item/reagent_containers/food/drinks/cans/cola_cinnamon = 3,
+		/obj/item/reagent_containers/food/drinks/cans/space_upcranberry = 3,
+	    /obj/item/reagent_containers/food/drinks/cans/cola_licorice = 3,
+		/obj/item/reagent_containers/food/drinks/cans/dr_gibb_mystery = 3,
 		/obj/item/reagent_containers/food/drinks/cans/thirteenloko = 8,
 		/obj/item/reagent_containers/food/snacks/liquid = 8, //SweatMAX LiquidFood costs 15. Making the contraband version cheaper can be rewarding.
 		/obj/item/reagent_containers/food/drinks/cans/dumbjuice = 1,
