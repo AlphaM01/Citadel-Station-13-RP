@@ -2038,6 +2038,7 @@
 #include "code\game\objects\items\storage\single_use\_single_use.dm"
 #include "code\game\objects\items\storage\single_use\med_pouch.dm"
 #include "code\game\objects\items\storage\single_use\mre.dm"
+#include "code\game\objects\items\storage\single_use\snacks.dm"
 #include "code\game\objects\items\stream_projector\medichine.dm"
 #include "code\game\objects\items\stream_projector\stream_projector.dm"
 #include "code\game\objects\items\theatrical\bike_horn.dm"

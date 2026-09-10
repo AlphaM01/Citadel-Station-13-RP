@@ -7175,3 +7175,4 @@ END CITADEL CHANGE */
 	. = ..()
 	reagents.add_reagent("candycornmartini", 5)
 	bitesize = 5
+
