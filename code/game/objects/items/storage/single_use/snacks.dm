@@ -12,7 +12,7 @@ Plastic packaging for individual snackages
 
 /obj/item/storage/single_use/bag/belochka
 	name = "Belochka"
-	desc = "A bag of discontinued Waffle Co. hazelnut pralines, featuring a drawing of a squirrel in a bubble helmet."
+	desc = "A bag of discontinued Waffle Co. hazelnut pralines, featuring a drawing of a spacefaring squirrel in a bubble helmet."
 	icon_state = "belochka_bag"
 	starts_with = list(
 	)
