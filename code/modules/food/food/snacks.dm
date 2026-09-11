@@ -7176,3 +7176,73 @@ END CITADEL CHANGE */
 	reagents.add_reagent("candycornmartini", 5)
 	bitesize = 5
 
+/obj/item/reagent_containers/food/snacks/belochka
+	name = "Belochka"
+	desc = "An individually-wrapped chocolate filled with hazelnut praline."
+	icon_state =  "belochka_closed"
+	filling_color = "#523112"
+	nutriment_desc = list("chocolate" = 1, "crunchy hazelnut" = 2)
+	bitesize = 3
+	sealed = TRUE
+	open_message = "You take off the wrapper! It looks ready to eat!"
+	opened_icon = "belochka_open"
+
+/obj/item/reagent_containers/food/snacks/candycorn
+	name = "Candy Corn"
+	desc = "A chewy terran confectionery intended to resemble maize."
+	icon_state =  "candycorn"
+	filling_color = "#fc7b02"
+	nutriment_desc = list("marshmallow" = 1)
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/centauri/chocolate
+	name = "Centauri Milk Chocolate Bar"
+	desc = "The galactic standard in chocolate. Twelve pieces, long shelf-life, perfectly formulated to withstand the rigors of interstellar travel."
+	icon_state =  "chocolate"
+	filling_color = "#3f2207"
+	nutriment_desc = list("milk chocolate" = 20)
+	bitesize = 4
+	sealed = TRUE
+	open_message = "You open the wrapper! It looks ready to eat!"
+	opened_icon = "chocolate_open"
+
+/obj/item/reagent_containers/food/snacks/centauri/chocolate
+	name = "Centauri Cookies And Creme Bar"
+	desc = "A creme bar with small chunks of crunchy chocolate cookie embedded in it. It's like ice cream, but at room temperature."
+	icon_state =  "wchocolate"
+	filling_color = "#fffce8"
+	nutriment_desc = list("crunchy cookie" = 10, "smooth creme" = 10)
+	bitesize = 4
+	sealed = TRUE
+	open_message = "You open the wrapper! It looks ready to eat!"
+	opened_icon = "wchocolate_open"
+
+/obj/item/reagent_containers/food/snacks/centauri/cookie
+	name = "Chocolate Chip Cookie"
+	desc = "While some consider this a mediocre cookie, others call it a universal baseline. Surpass it or fade away."
+	icon_state =  "cookie"
+	filling_color = "#c9ab8e"
+	nutriment_desc = list("crunchy cookie" = 10, "chocolate" = 10)
+	bitesize = 10
+
+/obj/item/reagent_containers/food/snacks/centauri/cookie/chocolate
+	name = "Double Chocolate Cookie"
+	desc = "The most common variant of chocolate chip cookie, baked incorporating cocoa in the dough mix for maximum chocolate yield."
+	icon_state =  "chococookie"
+	filling_color = "#382819"
+
+/obj/item/reagent_containers/food/snacks/centauri/matchamilkcandy
+	name = "Matcha Milk Candy"
+	desc = "A simple, hard candy, slowly rolled out by Centauri Provisions after the success of Matcha Latte as a beverage in the 2500s"
+	icon_state =  "matchamilkcandy"
+	filling_color = "#9bc769"
+	nutriment_desc = list("tea" = 1, "milk" = 1)
+	bitesize = 2
+
+/obj/item/reagent_containers/food/snacks/greenchew
+	name = "Green Candy"
+	desc = "A chewy square of green taffy, it smells just like green apple."
+	icon_state =  "green"
+	filling_color = "#69fa69"
+	nutriment_desc = list("green apple" = 1)
+	bitesize = 1

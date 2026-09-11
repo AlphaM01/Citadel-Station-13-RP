@@ -11,7 +11,7 @@ Plastic packaging for individual snackages
 	max_single_weight_class = WEIGHT_CLASS_SMALL
 
 /obj/item/storage/single_use/bag/belochka
-	name = "Belochka"
+	name = "Space Belochka"
 	desc = "A bag of discontinued Waffle Co. chocolate-covered hazelnut pralines. It has a drawing of a spacefaring squirrel in a bubble helmet on it."
 	icon_state = "belochka_bag"
 	starts_with = list(
