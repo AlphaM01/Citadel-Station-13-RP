@@ -91,7 +91,7 @@ Plastic packaging for individual snackages
 
 /obj/item/storage/single_use/bag/toroid
 	name = "Mint Toroid"
-	desc = "A roll of spearmint-flavored mints, best known for their ads where any number of things with one hole can be turned into the candy."
+	desc = "A roll of spearmint-flavored mints, best known for their bizarre ads where any number of things with one hole can be turned into the candy."
 	icon_state = "toroid_blue"
 	max_combined_volume = WEIGHT_VOLUME_TINY * 14
 	max_single_weight_class = WEIGHT_CLASS_TINY
