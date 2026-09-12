@@ -7246,3 +7246,105 @@ END CITADEL CHANGE */
 	filling_color = "#69fa69"
 	nutriment_desc = list("green apple" = 1)
 	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/honeychocolate
+	name = "Van Thyssen's Honey Chocolate Bar"
+	desc = "An imported chocolate bar, each hollow semisweet-chocolate square is filled with real honey."
+	icon_state =  "honeybar"
+	filling_color = "#3f2207"
+	nutriment_desc = list("honey chocolate" = 20)
+	bitesize = 4
+	sealed = TRUE
+	open_message = "You open the wrapper! It looks ready to eat!"
+	opened_icon = "honeybar_open"
+
+/obj/item/reagent_containers/food/snacks/pnbtrcup
+	name = "Peanut Butter Cup"
+	desc = "A chocolate confectionery shaped vaguely like a pie with ridged sides. The inside is filled with creamy peanut butter."
+	icon_state =  "pnbtrcup"
+	filling_color = "#3f2207"
+	nutriment_desc = list("chocolate" = 5, "peanut butter" = 10)
+	bitesize = 5
+
+// Halloween Gummies
+/obj/item/reagent_containers/food/snacks/halloweengummy/ghost
+	name = "Gummy"
+	desc = "A gelatin candy shaped like a ghost. Spooky."
+	icon_state =  "halloweengummy_1"
+	filling_color = "#dddddd"
+	nutriment_desc = list("sweetness" = 1)
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/halloweengummy/bat
+	name = "Gummy"
+	desc = "A gelatin candy shaped like a bat in flight."
+	icon_state =  "halloweengummy_1"
+	filling_color = "#303030"
+	nutriment_desc = list("sweetness" = 1)
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern
+	name = "Gummy"
+	desc = "A gelatin candy shaped like a smiling jack-o-lantern."
+	icon_state =  "halloweengummy_1"
+	filling_color = "#c9600a"
+	nutriment_desc = list("sweetness" = 1)
+	bitesize = 1
+
+//Sour gummy worms
+
+/obj/item/reagent_containers/food/snacks/sourgummyworm
+	name = "Sour Gummy Worm"
+	desc = "A gummy worm coated in a generous layer of sour granulated sugar."
+	bitesize = 3
+
+/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue
+	icon_state =  "sourgummyworm_1"
+	filling_color = "#dd2131"
+	nutriment_desc = list("sourness" = 1, "cherry" = 1, "blueberry" = 1)
+
+/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange
+	icon_state =  "sourgummyworm_2"
+	filling_color = "#ee850d"
+	nutriment_desc = list("sourness" = 1, "lime" = 1, "orange" = 1)
+
+/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow
+	icon_state =  "sourgummyworm_1"
+	filling_color = "#770865"
+	nutriment_desc = list("sourness" = 1, "grape" = 1, "lemon" = 1)
+
+//Life-buoy shaped mints
+
+/obj/item/reagent_containers/food/snacks/toroid
+	name = "Mint"
+	desc = "A chalky white mint shaped like a donut. It even has little embossed text on it that says Toroid."
+	icon_state =  "toroid"
+	filling_color = "#e4e4e4"
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/toroid/mint
+	nutriment_desc = list("minty" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/musk
+	nutriment_desc = list("rosewater" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/cherry
+	nutriment_desc = list("cherry" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/pineapple
+	nutriment_desc = list("pineapple" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/orange
+	nutriment_desc = list("orange" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/lemon
+	nutriment_desc = list("lemon" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/raspberry
+	nutriment_desc = list("raspberry" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/lime
+	nutriment_desc = list("lime" = 1)
+
+/obj/item/reagent_containers/food/snacks/toroid/grape
+	nutriment_desc = list("grape" = 1)
