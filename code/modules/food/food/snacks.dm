@@ -7179,13 +7179,15 @@ END CITADEL CHANGE */
 /obj/item/reagent_containers/food/snacks/belochka
 	name = "Belochka"
 	desc = "An individually-wrapped chocolate filled with hazelnut praline."
-	icon_state =  "belochka_closed"
+	icon_state =  "belochka"
 	filling_color = "#523112"
 	nutriment_desc = list("chocolate" = 1, "crunchy hazelnut" = 2)
+	nutriment_amt = 2
 	bitesize = 3
 	sealed = TRUE
+	custom_open_sound = 'sound/bureaucracy/papercrumple.ogg'
 	open_message = "You take off the wrapper! It looks ready to eat!"
-	opened_icon = "belochka_open"
+	opened_icon = 1
 
 /obj/item/reagent_containers/food/snacks/candycorn
 	name = "Candy Corn"
@@ -7193,6 +7195,7 @@ END CITADEL CHANGE */
 	icon_state =  "candycorn"
 	filling_color = "#fc7b02"
 	nutriment_desc = list("marshmallow" = 1)
+	nutriment_amt = 1
 	bitesize = 1
 
 /obj/item/reagent_containers/food/snacks/centauri/chocolate
@@ -7201,21 +7204,25 @@ END CITADEL CHANGE */
 	icon_state =  "chocolate"
 	filling_color = "#3f2207"
 	nutriment_desc = list("milk chocolate" = 20)
+	nutriment_amt = 10
 	bitesize = 4
 	sealed = TRUE
+	custom_open_sound = 'sound/effects/pageturn2.ogg'
 	open_message = "You open the wrapper! It looks ready to eat!"
-	opened_icon = "chocolate_open"
+	opened_icon = 1
 
-/obj/item/reagent_containers/food/snacks/centauri/chocolate
+/obj/item/reagent_containers/food/snacks/centauri/wchocolate
 	name = "Centauri Cookies And Creme Bar"
 	desc = "A creme bar with small chunks of crunchy chocolate cookie embedded in it. It's like ice cream, but at room temperature."
 	icon_state =  "wchocolate"
 	filling_color = "#fffce8"
 	nutriment_desc = list("crunchy cookie" = 10, "smooth creme" = 10)
+	nutriment_amt = 10
 	bitesize = 4
 	sealed = TRUE
+	custom_open_sound = 'sound/effects/pageturn2.ogg'
 	open_message = "You open the wrapper! It looks ready to eat!"
-	opened_icon = "wchocolate_open"
+	opened_icon = 1
 
 /obj/item/reagent_containers/food/snacks/centauri/cookie
 	name = "Chocolate Chip Cookie"
@@ -7223,6 +7230,7 @@ END CITADEL CHANGE */
 	icon_state =  "cookie"
 	filling_color = "#c9ab8e"
 	nutriment_desc = list("crunchy cookie" = 10, "chocolate" = 10)
+	nutriment_amt = 5
 	bitesize = 10
 
 /obj/item/reagent_containers/food/snacks/centauri/cookie/chocolate
@@ -7233,11 +7241,16 @@ END CITADEL CHANGE */
 
 /obj/item/reagent_containers/food/snacks/centauri/matchamilkcandy
 	name = "Matcha Milk Candy"
-	desc = "A simple, hard candy, slowly rolled out by Centauri Provisions after the success of Matcha Latte as a beverage in the 2500s"
+	desc = "A simple, hard candy. Introduced by Centauri Provisions after the success of Matcha Latte as a beverage in the 2500s"
 	icon_state =  "matchamilkcandy"
 	filling_color = "#9bc769"
-	nutriment_desc = list("tea" = 1, "milk" = 1)
+	nutriment_desc = list("green tea" = 1, "milk" = 1)
+	nutriment_amt = 2
 	bitesize = 2
+	sealed = TRUE
+	custom_open_sound = 'sound/bureaucracy/papercrumple.ogg'
+	open_message = "You take off the wrapper! It looks ready to eat!"
+	opened_icon = 1
 
 /obj/item/reagent_containers/food/snacks/greenchew
 	name = "Green Candy"
@@ -7245,6 +7258,7 @@ END CITADEL CHANGE */
 	icon_state =  "green"
 	filling_color = "#69fa69"
 	nutriment_desc = list("green apple" = 1)
+	nutriment_amt = 1
 	bitesize = 1
 
 /obj/item/reagent_containers/food/snacks/honeychocolate
@@ -7253,10 +7267,12 @@ END CITADEL CHANGE */
 	icon_state =  "honeybar"
 	filling_color = "#3f2207"
 	nutriment_desc = list("honey chocolate" = 20)
+	nutriment_amt = 10
 	bitesize = 4
 	sealed = TRUE
+	custom_open_sound = 'sound/effects/pageturn2.ogg'
 	open_message = "You open the wrapper! It looks ready to eat!"
-	opened_icon = "honeybar_open"
+	opened_icon = 1
 
 /obj/item/reagent_containers/food/snacks/pnbtrcup
 	name = "Peanut Butter Cup"
@@ -7264,38 +7280,37 @@ END CITADEL CHANGE */
 	icon_state =  "pnbtrcup"
 	filling_color = "#3f2207"
 	nutriment_desc = list("chocolate" = 5, "peanut butter" = 10)
+	nutriment_amt = 10
 	bitesize = 5
 
 // Halloween Gummies
-/obj/item/reagent_containers/food/snacks/halloweengummy/ghost
+/obj/item/reagent_containers/food/snacks/halloweengummy
 	name = "Gummy"
+	nutriment_desc = list("sweetness" = 1)
+	nutriment_amt = 1
+	bitesize = 1
+
+/obj/item/reagent_containers/food/snacks/halloweengummy/ghost
 	desc = "A gelatin candy shaped like a ghost. Spooky."
 	icon_state =  "halloweengummy_1"
 	filling_color = "#dddddd"
-	nutriment_desc = list("sweetness" = 1)
-	bitesize = 1
 
 /obj/item/reagent_containers/food/snacks/halloweengummy/bat
-	name = "Gummy"
 	desc = "A gelatin candy shaped like a bat in flight."
-	icon_state =  "halloweengummy_1"
+	icon_state =  "halloweengummy_2"
 	filling_color = "#303030"
-	nutriment_desc = list("sweetness" = 1)
-	bitesize = 1
 
 /obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern
-	name = "Gummy"
 	desc = "A gelatin candy shaped like a smiling jack-o-lantern."
-	icon_state =  "halloweengummy_1"
+	icon_state =  "halloweengummy_3"
 	filling_color = "#c9600a"
-	nutriment_desc = list("sweetness" = 1)
-	bitesize = 1
 
 //Sour gummy worms
 
 /obj/item/reagent_containers/food/snacks/sourgummyworm
 	name = "Sour Gummy Worm"
 	desc = "A gummy worm coated in a generous layer of sour granulated sugar."
+	nutriment_amt = 1
 	bitesize = 3
 
 /obj/item/reagent_containers/food/snacks/sourgummyworm/redblue
@@ -7309,7 +7324,7 @@ END CITADEL CHANGE */
 	nutriment_desc = list("sourness" = 1, "lime" = 1, "orange" = 1)
 
 /obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow
-	icon_state =  "sourgummyworm_1"
+	icon_state =  "sourgummyworm_3"
 	filling_color = "#770865"
 	nutriment_desc = list("sourness" = 1, "grape" = 1, "lemon" = 1)
 
@@ -7320,6 +7335,7 @@ END CITADEL CHANGE */
 	desc = "A chalky white mint shaped like a donut. It even has little embossed text on it that says Toroid."
 	icon_state =  "toroid"
 	filling_color = "#e4e4e4"
+	nutriment_amt = 1
 	bitesize = 1
 
 /obj/item/reagent_containers/food/snacks/toroid/mint

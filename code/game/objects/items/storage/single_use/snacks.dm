@@ -7,6 +7,7 @@ Plastic packaging for individual snackages
 	desc = "Report me to a coder."
 	icon = 'icons/obj/food.dmi'
 	icon_state = null
+	// These need actual open sprites
 
 /obj/item/storage/single_use/bag/belochka
 	name = "Space Belochka"
