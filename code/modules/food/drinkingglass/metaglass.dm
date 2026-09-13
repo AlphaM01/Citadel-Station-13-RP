@@ -405,9 +405,6 @@ Drinks Data
 	glass_icon_state = "sbagliatoglass"
 	glass_center_of_mass = list("x"=16, "y"=8)
 
-/datum/reagent/ethanol/fusionnaire
-	glass_icon_state = "fusionnair3"
-
 /datum/reagent/ethanol/xanaducannon
 	glass_icon_state = "xanaducannon"
 	glass_center_of_mass = list("x"=16, "y"=8)
