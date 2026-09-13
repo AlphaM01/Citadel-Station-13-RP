@@ -36,21 +36,21 @@ Plastic packaging for individual snackages
 	max_combined_volume = WEIGHT_VOLUME_TINY * 15
 	max_single_weight_class = WEIGHT_CLASS_SMALL
 	starts_with = list(
-	/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
-	/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern
+		/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/ghost,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/bat,
+		/obj/item/reagent_containers/food/snacks/halloweengummy/jackolantern
 	)
 
 /obj/item/storage/single_use/bag/greenchew
@@ -80,21 +80,21 @@ Plastic packaging for individual snackages
 	max_combined_volume = WEIGHT_VOLUME_TINY * 15
 	max_single_weight_class = WEIGHT_CLASS_SMALL
 	starts_with = list(
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
-	/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/redblue,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/greenorange,
+		/obj/item/reagent_containers/food/snacks/sourgummyworm/purpleyellow
 	)
 
 /obj/item/storage/single_use/bag/raymonds
@@ -150,18 +150,18 @@ Plastic packaging for individual snackages
 	desc = "A roll of assorted fruit-flavored mints, always packaged in the same, familiar sequence."
 	icon_state = "toroid_fruit"
 	starts_with = list(
-	/obj/item/reagent_containers/food/snacks/toroid/cherry,
-	/obj/item/reagent_containers/food/snacks/toroid/pineapple,
-	/obj/item/reagent_containers/food/snacks/toroid/orange,
-	/obj/item/reagent_containers/food/snacks/toroid/lemon,
-	/obj/item/reagent_containers/food/snacks/toroid/raspberry,
-	/obj/item/reagent_containers/food/snacks/toroid/lime,
-	/obj/item/reagent_containers/food/snacks/toroid/grape,
-	/obj/item/reagent_containers/food/snacks/toroid/cherry,
-	/obj/item/reagent_containers/food/snacks/toroid/pineapple,
-	/obj/item/reagent_containers/food/snacks/toroid/orange,
-	/obj/item/reagent_containers/food/snacks/toroid/lemon,
-	/obj/item/reagent_containers/food/snacks/toroid/raspberry,
-	/obj/item/reagent_containers/food/snacks/toroid/lime,
-	/obj/item/reagent_containers/food/snacks/toroid/grape
+		/obj/item/reagent_containers/food/snacks/toroid/cherry,
+		/obj/item/reagent_containers/food/snacks/toroid/pineapple,
+		/obj/item/reagent_containers/food/snacks/toroid/orange,
+		/obj/item/reagent_containers/food/snacks/toroid/lemon,
+		/obj/item/reagent_containers/food/snacks/toroid/raspberry,
+		/obj/item/reagent_containers/food/snacks/toroid/lime,
+		/obj/item/reagent_containers/food/snacks/toroid/grape,
+		/obj/item/reagent_containers/food/snacks/toroid/cherry,
+		/obj/item/reagent_containers/food/snacks/toroid/pineapple,
+		/obj/item/reagent_containers/food/snacks/toroid/orange,
+		/obj/item/reagent_containers/food/snacks/toroid/lemon,
+		/obj/item/reagent_containers/food/snacks/toroid/raspberry,
+		/obj/item/reagent_containers/food/snacks/toroid/lime,
+		/obj/item/reagent_containers/food/snacks/toroid/grape
 	)
