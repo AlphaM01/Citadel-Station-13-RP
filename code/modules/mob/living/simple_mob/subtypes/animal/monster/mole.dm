@@ -16,6 +16,6 @@
 	legacy_melee_damage_lower = 20
 	legacy_melee_damage_upper = 25
 
-	movement_base_speed = 2.5
+	movement_base_speed = 10 / 4
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/retaliate/cooperative
 	iff_factions = MOB_IFF_FACTION_MONSTER_MOLE

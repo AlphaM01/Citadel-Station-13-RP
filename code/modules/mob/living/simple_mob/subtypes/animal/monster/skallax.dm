@@ -4,7 +4,7 @@
 	see_in_dark = 10
 	movement_sound = 'sound/effects/spider_loop.ogg'
 	attack_sound = 'sound/weapons/slice.ogg'
-	movement_base_speed = 2.5
+	movement_base_speed = 10 / 4
 
 /mob/living/simple_mob/animal/monster/skallax/young
 	name = "young skallax"
@@ -20,7 +20,7 @@
 	legacy_melee_damage_lower = 25
 	legacy_melee_damage_upper = 20
 
-	movement_base_speed = 2.5
+	movement_base_speed = 10 / 4
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/event
 
 /mob/living/simple_mob/animal/monster/skallax/worker
@@ -47,7 +47,7 @@
 	base_attack_cooldown = 11
 	projectilesound = 'sound/effects/splat.ogg'
 
-	movement_base_speed = 2
+	movement_base_speed = 10 / 5
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/ranged/kiting
 
 /mob/living/simple_mob/animal/monster/skallax/mature
@@ -75,5 +75,5 @@
 	legacy_melee_damage_lower = 35
 	legacy_melee_damage_upper = 30
 
-	movement_base_speed = 2
+	movement_base_speed = 10 / 4
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/melee/evasive
