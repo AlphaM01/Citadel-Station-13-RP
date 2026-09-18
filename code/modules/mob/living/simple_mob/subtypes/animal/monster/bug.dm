@@ -13,6 +13,6 @@
 	legacy_melee_damage_lower = 10
 	legacy_melee_damage_upper = 15
 
-	movement_base_speed = 10 / 3
+	movement_base_speed = 3
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/retaliate/cooperative
 	iff_factions = MOB_IFF_FACTION_MONSTER_WOLF

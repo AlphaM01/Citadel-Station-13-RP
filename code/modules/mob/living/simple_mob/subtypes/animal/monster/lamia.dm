@@ -6,7 +6,7 @@
 	see_in_dark = 10
 	movement_sound = 'sound/spooky/boneclak.ogg'
 	attack_sound = 'sound/mobs/biomorphs/drone_attack.ogg'
-	movement_base_speed = 10 / 4
+	movement_base_speed = 2.5
 	icon_dead = "lamia_dead"
 
 /mob/living/simple_mob/animal/monster/lamia/male
@@ -37,7 +37,7 @@
 	legacy_melee_damage_lower = 30
 	legacy_melee_damage_upper = 35
 
-	movement_base_speed = 10 / 6
+	movement_base_speed = 1.5
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/event
 
 
@@ -70,7 +70,7 @@
 	legacy_melee_damage_upper = 30
 	base_attack_cooldown = 9
 
-	movement_base_speed = 10 / 3
+	movement_base_speed = 3
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/melee/evasive
 
 /mob/living/simple_mob/animal/monster/lamia/young
@@ -100,5 +100,5 @@
 	legacy_melee_damage_lower = 15
 	legacy_melee_damage_upper = 20
 
-	movement_base_speed = 10 / 4
+	movement_base_speed = 2.5
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/event

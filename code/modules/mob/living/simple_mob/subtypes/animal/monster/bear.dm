@@ -33,7 +33,7 @@
 	legacy_melee_damage_upper = 45
 	attack_armor_pen = 20
 
-	movement_base_speed = 10 / 4
+	movement_base_speed = 2.5
 
 	special_attack_min_range = 3
 	special_attack_max_range = 7

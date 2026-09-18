@@ -23,7 +23,7 @@
 	wreckage = /obj/structure/loot_pile/mecha/odysseus
 
 	maxHealth = 120
-	movement_base_speed = 6.66
+	movement_base_speed = 0.5 //Odysseus step_in = 2 so 1/2th of a tile per second.
 	turn_sound = 'sound/mecha/mechmove01.ogg'
 
 	legacy_melee_damage_lower = 5

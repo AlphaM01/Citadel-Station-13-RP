@@ -35,7 +35,7 @@
 	maxHealth = 75
 	randomized = TRUE
 
-	movement_base_speed = 10 / 5
+	movement_base_speed = 2
 
 	legacy_melee_damage_lower = 6
 	legacy_melee_damage_upper = 14

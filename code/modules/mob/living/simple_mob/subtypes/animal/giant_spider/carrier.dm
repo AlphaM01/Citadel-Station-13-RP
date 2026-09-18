@@ -29,7 +29,7 @@
 	poison_per_bite = 3
 	poison_type = "chloralhydrate"
 
-	movement_base_speed = 10 / 5
+	movement_base_speed = 2
 
 	exotic_type = /obj/item/reagent_containers/glass/venomgland/spider/chloral
 

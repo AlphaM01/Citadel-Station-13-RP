@@ -17,7 +17,7 @@
 	desc = "An aging combat exosuit utilized by many corporations. It was originally developed to fight in the Rye-Egress War."
 	catalogue_data = list(/datum/category_item/catalogue/technology/durand)
 	icon_state = "durand"
-	movement_base_speed = 10 / 10
+	movement_base_speed = 0.4 //Durand step_in = 4 which is 4/10 = 0.4 tiles per second.
 	wreckage = /obj/structure/loot_pile/mecha/durand
 
 	maxHealth = 400

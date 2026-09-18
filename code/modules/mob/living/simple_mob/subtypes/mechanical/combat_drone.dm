@@ -43,7 +43,7 @@
 
 	maxHealth = 50 // Shield has 150 for total of 200.
 	health = 50
-	movement_base_speed = 10 / 5
+	movement_base_speed = 2
 	hovering = TRUE
 
 	base_attack_cooldown = 5
@@ -92,10 +92,9 @@
 	size_y = 1
 
 // A slightly easier drone, for POIs.
-// Difference is that it should not be faster than you.
 /mob/living/simple_mob/mechanical/combat_drone/lesser
 	desc = "An automated combat drone with an aged apperance."
-	movement_base_speed = 10 / 10
+	movement_base_speed = 1
 
 
 // This one is the type spawned by the random event.
