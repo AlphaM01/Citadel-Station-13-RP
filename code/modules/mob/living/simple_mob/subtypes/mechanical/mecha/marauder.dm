@@ -16,7 +16,7 @@
 	desc = "A heavy-duty, combat exosuit, developed after the Durand model. This is rarely found among civilian populations."
 	catalogue_data = list(/datum/category_item/catalogue/technology/marauder)
 	icon_state = "marauder"
-	movement_base_speed = 1
+	movement_base_speed = 2
 	wreckage = /obj/structure/loot_pile/mecha/marauder
 
 	maxHealth = 500
