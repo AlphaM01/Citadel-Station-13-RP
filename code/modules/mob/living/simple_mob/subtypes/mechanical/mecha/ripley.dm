@@ -19,7 +19,7 @@
 	catalogue_data = list(/datum/category_item/catalogue/technology/ripley)
 	icon_state = "ripley"
 	wreckage = /obj/structure/loot_pile/mecha/ripley
-	movement_base_speed = 0.2 //Ripley step_in = 5 so 1/5th of a tile per second.
+	movement_base_speed = 1
 
 	maxHealth = 200
 

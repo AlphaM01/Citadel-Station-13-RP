@@ -18,7 +18,7 @@
 	name = "phazon"
 	desc = "An extremly enigmatic exosuit."
 	icon_state = "phazon"
-	movement_base_speed = 1 //Phazon step_in = 1 so 1/1th of a tile per second.
+	movement_base_speed = 7
 	wreckage = /obj/structure/loot_pile/mecha/phazon
 	catalogue_data = list(/datum/category_item/catalogue/technology/phazon)
 
