@@ -35,7 +35,7 @@
 
 	projectiletype = /obj/projectile/bullet/pistol/medium
 
-	movement_base_speed = 0.2 //No player controlled version exists, but it's a tank.
+	movement_base_speed = 1
 	base_attack_cooldown = 8
 
 	ai_holder_type = /datum/ai_holder/polaris/simple_mob/ranged/kiting
