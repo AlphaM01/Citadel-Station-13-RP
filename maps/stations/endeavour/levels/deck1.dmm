@@ -3570,6 +3570,10 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
+/obj/structure/flora/tree/halloween/five{
+	pixel_y = 17;
+	pixel_x = -31
+	},
 /turf/simulated/floor/roguetown/grass/zero,
 /area/station/exploration/hallway_aft/endeavour)
 "cDQ" = (
@@ -11220,11 +11224,11 @@
 	dir = 8
 	},
 /obj/structure/flora/pumpkin{
-	pixel_y = 3;
+	pixel_y = -16;
 	pixel_x = 21
 	},
 /obj/structure/flora/pumpkin{
-	pixel_y = -6;
+	pixel_y = -25;
 	pixel_x = 8
 	},
 /turf/simulated/floor/roguetown/grass/one,
@@ -16797,6 +16801,10 @@
 /turf/simulated/floor/tiled/steel,
 /area/station/engineering/substation/deck1aft/endeavour)
 "mcN" = (
+/obj/machinery/light/flamp/noshade{
+	pixel_x = -16;
+	pixel_y = -3
+	},
 /turf/simulated/floor/bmarble,
 /area/crew_quarters/coffee_shop)
 "mcY" = (
