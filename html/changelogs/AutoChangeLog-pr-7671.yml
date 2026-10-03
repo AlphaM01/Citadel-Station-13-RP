@@ -1,0 +1,4 @@
+author: "TheLordME"
+delete-after: True
+changes:
+  - tweak: "tweaked admin verb \"Manual Play Internet Sound\" to make it possible to edit the title"
