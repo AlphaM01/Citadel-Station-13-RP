@@ -775,7 +775,7 @@
 	pixel_x = 25
 	},
 /obj/effect/debris/cleanable/cobweb2,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "ayL" = (
 /turf/simulated/wall,
@@ -1105,10 +1105,10 @@
 /turf/simulated/floor/plating,
 /area/hallway/d1fwdhall/endeavour)
 "aKB" = (
-/obj/structure/table/woodentable,
 /obj/machinery/light/small/old{
 	dir = 8
 	},
+/obj/structure/table/hardwoodtable,
 /turf/simulated/floor/carpet/oracarpet,
 /area/crew_quarters/coffee_shop)
 "aKC" = (
@@ -1242,10 +1242,10 @@
 /turf/simulated/floor/tiled,
 /area/rnd/misc_lab)
 "aSH" = (
-/obj/structure/table/woodentable,
 /obj/machinery/light/small/old{
 	dir = 8
 	},
+/obj/structure/table/hardwoodtable,
 /turf/simulated/floor/carpet/bcarpet/lythios43c,
 /area/crew_quarters/coffee_shop)
 "aUh" = (
@@ -1566,7 +1566,7 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 8
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "ber" = (
 /obj/structure/bed/chair{
@@ -2070,7 +2070,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "bzE" = (
 /obj/effect/floor_decal/corner_steel_grid{
@@ -3091,7 +3091,7 @@
 "coH" = (
 /obj/machinery/light/small/old,
 /obj/structure/flora/pottedplant/stoutbush,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "coI" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
@@ -4538,7 +4538,7 @@
 /turf/simulated/floor/plating,
 /area/hallway/crew_quarters/cryo/recovery/endeavour)
 "dpE" = (
-/obj/item/flame/candle/candelabra/everburn,
+/obj/item/flame/candle/candelabra/black,
 /turf/simulated/floor/carpet/bcarpet,
 /area/chapel/main)
 "dqm" = (
@@ -4977,7 +4977,7 @@
 	},
 /obj/machinery/light/small/old,
 /obj/structure/flora/pottedplant/stoutbush,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "dFj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -8957,7 +8957,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "gud" = (
 /turf/space,
@@ -9318,14 +9318,14 @@
 	icon_state = "superjuke-nopower";
 	state_base = "superjuke"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "gIW" = (
 /obj/machinery/power/apc/south_mount,
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "gIY" = (
 /obj/structure/shuttle/engine/heater{
@@ -9765,7 +9765,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "hbt" = (
 /obj/machinery/light,
@@ -9901,7 +9901,7 @@
 /area/station/exploration/hallway_aft/endeavour)
 "hhq" = (
 /obj/machinery/vending/cafe,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "hhr" = (
 /obj/machinery/floodlight,
@@ -10272,7 +10272,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "hyE" = (
 /obj/effect/floor_decal/borderfloorblack,
@@ -10592,7 +10592,7 @@
 	dir = 4
 	},
 /obj/item/radio/beacon,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "hOW" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
@@ -11567,7 +11567,7 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "ixz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -12388,7 +12388,7 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "jgV" = (
 /obj/effect/floor_decal/borderfloor{
@@ -12435,7 +12435,7 @@
 	dir = 10
 	},
 /obj/item/stool/padded,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "jie" = (
 /turf/simulated/floor/tiled/monowhite,
@@ -14825,7 +14825,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "kLI" = (
 /obj/machinery/suit_storage_unit/standard_unit,
@@ -15665,9 +15665,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/bridge)
 "loh" = (
-/obj/structure/table/woodentable,
 /obj/item/instrument/harmonica,
-/turf/simulated/floor/wood,
+/obj/structure/table/hardwoodtable,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "lou" = (
 /obj/structure/table/woodentable,
@@ -15850,7 +15850,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "luA" = (
 /obj/machinery/photocopier{
@@ -19534,7 +19534,7 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "nYT" = (
 /obj/effect/floor_decal/rust,
@@ -20147,7 +20147,7 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "oxy" = (
 /obj/structure/cable/green{
@@ -20713,7 +20713,7 @@
 /obj/machinery/light/small/old{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "oXb" = (
 /obj/machinery/door/airlock/command{
@@ -20911,7 +20911,7 @@
 /area/station/exploration/hallway_aft/endeavour)
 "pcO" = (
 /obj/machinery/holopad,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "pdw" = (
 /obj/machinery/light{
@@ -21216,7 +21216,7 @@
 	icon_state = "1-2"
 	},
 /obj/item/stool/padded,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "pnz" = (
 /obj/structure/cable{
@@ -23463,7 +23463,7 @@
 "qUh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "qUM" = (
 /obj/machinery/light/no_nightshift,
@@ -23886,7 +23886,6 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/structure/table/woodentable,
 /obj/item/reagent_containers/food/condiment/small/saltshaker{
 	pixel_x = -3;
 	pixel_y = 6
@@ -23895,6 +23894,7 @@
 	pixel_x = 3;
 	pixel_y = 6
 	},
+/obj/structure/table/hardwoodtable,
 /turf/simulated/floor/carpet/oracarpet,
 /area/crew_quarters/coffee_shop)
 "ria" = (
@@ -24183,7 +24183,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "rwh" = (
 /obj/machinery/door/firedoor{
@@ -24306,7 +24306,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/obj/item/flame/candle/candelabra/everburn,
+/obj/item/flame/candle/candelabra/black,
 /turf/simulated/floor/carpet/bcarpet,
 /area/chapel/main)
 "rzp" = (
@@ -24340,7 +24340,7 @@
 /obj/machinery/camera/network/civilian{
 	dir = 8
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "rAs" = (
 /obj/effect/floor_decal/corner/black/diagonal,
@@ -24393,7 +24393,7 @@
 "rBP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/item/flame/candle/candelabra/everburn,
+/obj/item/flame/candle/candelabra/black,
 /turf/simulated/floor/carpet/bcarpet,
 /area/chapel/main)
 "rBW" = (
@@ -24564,7 +24564,7 @@
 /area/hallway/d1starboardamidhall/endeavour)
 "rHN" = (
 /obj/item/stool/padded,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "rJn" = (
 /obj/effect/floor_decal/corner/beige/border{
@@ -26535,6 +26535,10 @@
 /area/hallway/d1fwdhall/endeavour)
 "teS" = (
 /obj/structure/flora/rock/rock1,
+/obj/structure/flora/pumpkin{
+	pixel_y = 19;
+	pixel_x = -16
+	},
 /turf/simulated/floor/roguetown/grass/two,
 /area/hallway/d1portforhall/endeavour)
 "teT" = (
@@ -28036,7 +28040,7 @@
 	dir = 10
 	},
 /obj/item/stool/padded,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "ugI" = (
 /obj/machinery/atmospherics/component/unary/heat_exchanger{
@@ -29207,7 +29211,7 @@
 	dir = 4
 	},
 /obj/item/stool/padded,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "uRZ" = (
 /obj/random/trash_pile,
@@ -29388,10 +29392,6 @@
 /area/hallway/secondary/docking_hallway)
 "uZh" = (
 /obj/machinery/light,
-/obj/structure/flora/tree/halloween/special{
-	pixel_x = -15;
-	pixel_y = 2
-	},
 /turf/simulated/floor/roguetown/grass/zero,
 /area/hallway/d1portforhall/endeavour)
 "uZA" = (
@@ -29802,7 +29802,6 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/structure/table/woodentable,
 /obj/item/reagent_containers/food/condiment/small/saltshaker{
 	pixel_x = -3;
 	pixel_y = 6
@@ -29811,6 +29810,7 @@
 	pixel_x = 3;
 	pixel_y = 6
 	},
+/obj/structure/table/hardwoodtable,
 /turf/simulated/floor/carpet/bcarpet/lythios43c,
 /area/crew_quarters/coffee_shop)
 "vlU" = (
@@ -31138,7 +31138,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "wnb" = (
 /obj/machinery/air_alarm{
@@ -32006,7 +32006,7 @@
 /turf/simulated/floor/tiled,
 /area/maintenance/tool_storage)
 "wYg" = (
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "wZm" = (
 /obj/structure/disposalpipe/trunk{
@@ -32801,7 +32801,7 @@
 /obj/machinery/light/small/old{
 	dir = 8
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "xwI" = (
 /obj/structure/catwalk,
@@ -33146,7 +33146,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/flame/candle/candelabra/everburn,
+/obj/item/flame/candle/candelabra/black,
 /turf/simulated/floor/carpet/bcarpet,
 /area/chapel/main)
 "xHo" = (
@@ -33873,7 +33873,7 @@
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "yfT" = (
 /obj/machinery/door/airlock{
