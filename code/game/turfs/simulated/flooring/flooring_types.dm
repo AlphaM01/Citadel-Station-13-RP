@@ -1069,14 +1069,23 @@
 		'sound/effects/footstep/grass4.ogg'))
 
 /datum/prototype/flooring/roguetown/grass/one
+	name = "grass"
+	desc = "Soft, earthy grass."
+	icon = 'icons/turf/flooring/roguetown/misc.dmi'
 	desc = "Soft grass. Has some fallen leaves on it."
 	icon_base = "grass_1"
 
 /datum/prototype/flooring/roguetown/grass/two
+	name = "grass"
+	desc = "Soft, earthy grass."
+	icon = 'icons/turf/flooring/roguetown/misc.dmi'
 	desc = "Soft grass. Has fallen leaves on it."
 	icon_base = "grass_2"
 
 /datum/prototype/flooring/roguetown/grass/three
+	name = "grass"
+	desc = "Soft, earthy grass."
+	icon = 'icons/turf/flooring/roguetown/misc.dmi'
 	desc = "Soft grass. Has lots of fallen leaves on it."
 	icon_base = "grass_3"
 
