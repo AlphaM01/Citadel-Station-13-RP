@@ -1094,7 +1094,7 @@
 		'sound/effects/footstep/carpet4.ogg',
 		'sound/effects/footstep/carpet5.ogg'))
 
-/datum/prototype/flooring/roguetown/wood
+/datum/prototype/flooring/roguetown/herringbone
 	name = "herringbone parquet"
 	desc = "Fancy wooden parquet, polished to a shine."
 	icon = 'icons/turf/flooring/roguetown/misc.dmi'
@@ -1105,3 +1105,14 @@
 		'sound/effects/footstep/wood3.ogg',
 		'sound/effects/footstep/wood4.ogg',
 		'sound/effects/footstep/wood5.ogg'))
+
+/datum/prototype/flooring/roguetown/hex
+	name = "hexagonal rock"
+	desc = "Hardened hexagonal rock with a rough hewn surface."
+	icon = 'icons/turf/flooring/roguetown/misc.dmi'
+	icon_base = "hex"
+	footstep_sounds = list("human" = list(
+		'sound/effects/footstep/asteroid1.ogg',
+		'sound/effects/footstep/asteroid2.ogg',
+		'sound/effects/footstep/asteroid3.ogg',
+		'sound/effects/footstep/asteroid4.ogg'))
