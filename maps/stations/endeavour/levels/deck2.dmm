@@ -10101,6 +10101,10 @@
 /obj/structure/flora/pumpkin{
 	pixel_x = -5
 	},
+/obj/structure/flora/pumpkin{
+	pixel_x = -12;
+	pixel_y = -15
+	},
 /turf/simulated/floor/roguetown/grass/one,
 /area/hallway/public_meeting_room/endeavour)
 "gQO" = (
@@ -11974,7 +11978,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/roguetown/carpet,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/hallway/d2afthall/endeavour)
 "ikZ" = (
 /obj/structure/cable/green{
@@ -12221,8 +12225,8 @@
 /area/rnd/anomaly_lab)
 "ivV" = (
 /obj/structure/flora/pumpkin/carved{
-	pixel_x = -8;
-	pixel_y = -10
+	pixel_x = -9;
+	pixel_y = -5
 	},
 /turf/simulated/floor/roguetown/grass/zero,
 /area/hallway/d2afthall/endeavour)
@@ -32084,13 +32088,6 @@
 /obj/machinery/door/window/southleft,
 /turf/simulated/floor/tiled,
 /area/station/medical/virology_aft_access/endeavour)
-"wGZ" = (
-/obj/structure/flora/pumpkin{
-	pixel_y = 8;
-	pixel_x = 15
-	},
-/turf/simulated/floor/roguetown/grass/zero,
-/area/hallway/public_meeting_room/endeavour)
 "wHh" = (
 /obj/structure/closet/secure_closet/medical1,
 /obj/item/storage/box/pillbottles,
@@ -62661,7 +62658,7 @@ moe
 tOU
 byX
 gzO
-wGZ
+iAd
 iAd
 dyS
 pzn

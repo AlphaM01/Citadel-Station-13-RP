@@ -25378,7 +25378,7 @@
 /area/hallway/d4starboardforhall/endeavour)
 "xjc" = (
 /obj/structure/table/hardwoodtable,
-/obj/item/flame/candle/candelabra/black,
+/obj/item/flame/candle/candelabra/everburn,
 /turf/simulated/floor/roguetown/carpet,
 /area/crew_quarters/bar)
 "xjs" = (

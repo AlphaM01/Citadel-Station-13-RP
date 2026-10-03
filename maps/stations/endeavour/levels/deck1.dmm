@@ -3570,8 +3570,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/grass,
+/turf/simulated/floor/roguetown/grass/zero,
 /area/station/exploration/hallway_aft/endeavour)
 "cDQ" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
@@ -3629,8 +3628,8 @@
 /obj/machinery/door/firedoor{
 	dir = 8
 	},
-/obj/machinery/light/small/old{
-	dir = 1
+/obj/structure/poster{
+	pixel_y = 32
 	},
 /turf/simulated/floor/bmarble,
 /area/crew_quarters/coffee_shop)
@@ -3690,13 +3689,12 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 9
 	},
-/obj/structure/flora/ausbushes/fullgrass,
 /obj/item/toy/plushie/deer{
 	pixel_x = 8;
 	pixel_y = -8;
 	name = "Steffansson"
 	},
-/turf/simulated/floor/grass,
+/turf/simulated/floor/roguetown/grass/two,
 /area/station/exploration/hallway_aft/endeavour)
 "cJy" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
@@ -4143,8 +4141,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
-/obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/grass,
+/turf/simulated/floor/roguetown/grass/zero,
 /area/station/exploration/hallway_aft/endeavour)
 "cZw" = (
 /obj/machinery/power/apc/north_mount,
@@ -4538,7 +4535,7 @@
 /turf/simulated/floor/plating,
 /area/hallway/crew_quarters/cryo/recovery/endeavour)
 "dpE" = (
-/obj/item/flame/candle/candelabra/black,
+/obj/item/flame/candle/candelabra/everburn,
 /turf/simulated/floor/carpet/bcarpet,
 /area/chapel/main)
 "dqm" = (
@@ -11042,8 +11039,8 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/structure/poster{
-	pixel_y = 32
+/obj/machinery/light/small/old{
+	dir = 1
 	},
 /turf/simulated/floor/bmarble,
 /area/crew_quarters/coffee_shop)
@@ -11222,8 +11219,15 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
-/obj/structure/flora/ausbushes/genericbush,
-/turf/simulated/floor/grass,
+/obj/structure/flora/pumpkin{
+	pixel_y = 3;
+	pixel_x = 21
+	},
+/obj/structure/flora/pumpkin{
+	pixel_y = -6;
+	pixel_x = 8
+	},
+/turf/simulated/floor/roguetown/grass/one,
 /area/station/exploration/hallway_aft/endeavour)
 "ijf" = (
 /obj/machinery/light,
@@ -12384,10 +12388,10 @@
 /turf/simulated/floor/tiled/old_tile/blue,
 /area/hallway/d1portaftmaint/endeavour)
 "jfK" = (
-/obj/machinery/light,
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
 	},
+/obj/machinery/light/small/old,
 /turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "jgV" = (
@@ -13625,7 +13629,6 @@
 /turf/simulated/floor/wood,
 /area/bridge/meeting_room)
 "jRj" = (
-/obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -13633,7 +13636,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
-/turf/simulated/floor/grass,
+/turf/simulated/floor/roguetown/grass/two,
 /area/exploration/meeting)
 "jRW" = (
 /obj/structure/table/woodentable,
@@ -15836,7 +15839,6 @@
 /turf/simulated/floor/plating,
 /area/hallway/d1aftmaint/endeavour)
 "lul" = (
-/obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -15844,7 +15846,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
-/turf/simulated/floor/grass,
+/turf/simulated/floor/roguetown/grass/two,
 /area/exploration/meeting)
 "lus" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -16518,7 +16520,6 @@
 /turf/simulated/floor/plating,
 /area/hallway/d1portfwdmaint/endeavour)
 "lRr" = (
-/obj/structure/flora/ausbushes/fernybush,
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -16526,7 +16527,12 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
-/turf/simulated/floor/grass,
+/obj/structure/flora/rock/rock1{
+	dir = 5;
+	pixel_y = 5;
+	pixel_x = -7
+	},
+/turf/simulated/floor/roguetown/grass/one,
 /area/exploration/meeting)
 "lRT" = (
 /obj/machinery/recharge_station,
@@ -19793,8 +19799,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 5
 	},
-/obj/structure/flora/ausbushes/leafybush,
-/turf/simulated/floor/grass,
+/turf/simulated/floor/roguetown/grass/one,
 /area/station/exploration/hallway_aft/endeavour)
 "oiQ" = (
 /obj/structure/catwalk,
@@ -20568,7 +20573,6 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/library)
 "oSx" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -20576,7 +20580,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
-/turf/simulated/floor/grass,
+/turf/simulated/floor/roguetown/grass/one,
 /area/exploration/meeting)
 "oSH" = (
 /obj/structure/table/woodentable,
@@ -20642,6 +20646,7 @@
 "oTD" = (
 /obj/structure/table/woodentable,
 /obj/machinery/librarycomp,
+/obj/effect/debris/cleanable/cobweb,
 /turf/simulated/floor/wood,
 /area/library)
 "oUi" = (
@@ -22166,6 +22171,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/item/disk/nuclear,
+/obj/item/toy/plushie/face_hugger,
 /turf/simulated/floor/wood,
 /area/crew_quarters/captain)
 "qcD" = (
@@ -23765,7 +23771,6 @@
 /turf/simulated/floor/plating,
 /area/station/engineering/substation/deck1amidships/endeavour)
 "rcW" = (
-/obj/structure/flora/ausbushes/sunnybush,
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -23776,7 +23781,12 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
-/turf/simulated/floor/grass,
+/obj/structure/flora/rock/rock2{
+	dir = 5;
+	pixel_y = 3;
+	pixel_x = 7
+	},
+/turf/simulated/floor/roguetown/grass/one,
 /area/exploration/meeting)
 "rdf" = (
 /obj/structure/bookcase{
@@ -24316,7 +24326,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
-/obj/item/flame/candle/candelabra/black,
+/obj/item/flame/candle/candelabra/everburn,
 /turf/simulated/floor/carpet/bcarpet,
 /area/chapel/main)
 "rzp" = (
@@ -24403,7 +24413,7 @@
 "rBP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/item/flame/candle/candelabra/black,
+/obj/item/flame/candle/candelabra/everburn,
 /turf/simulated/floor/carpet/bcarpet,
 /area/chapel/main)
 "rBW" = (
@@ -26548,6 +26558,10 @@
 /obj/structure/flora/pumpkin{
 	pixel_y = 19;
 	pixel_x = -16
+	},
+/obj/structure/flora/pumpkin{
+	pixel_y = 10;
+	pixel_x = -26
 	},
 /turf/simulated/floor/roguetown/grass/two,
 /area/hallway/d1portforhall/endeavour)
@@ -32713,8 +32727,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
-/obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/grass,
+/turf/simulated/floor/roguetown/grass/one,
 /area/station/exploration/hallway_aft/endeavour)
 "xuK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -33156,11 +33169,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/flame/candle/candelabra/black,
+/obj/item/flame/candle/candelabra/everburn,
 /turf/simulated/floor/carpet/bcarpet,
 /area/chapel/main)
 "xHo" = (
-/obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -33168,7 +33180,12 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},
-/turf/simulated/floor/grass,
+/obj/structure/flora/rock/rock2{
+	dir = 10;
+	pixel_y = 6;
+	pixel_x = 8
+	},
+/turf/simulated/floor/roguetown/grass/zero,
 /area/exploration/meeting)
 "xHD" = (
 /obj/effect/floor_decal/techfloor/orange{
