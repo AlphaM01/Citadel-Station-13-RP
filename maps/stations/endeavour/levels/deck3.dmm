@@ -1336,6 +1336,7 @@
 /obj/machinery/computer/ship/navigation/telescreen{
 	pixel_y = 27
 	},
+/obj/item/flame/candle/everburn/black,
 /turf/simulated/floor/roguetown/cobblestone,
 /area/hydroponics/garden)
 "aTk" = (
@@ -2986,8 +2987,8 @@
 /turf/simulated/floor/airless/ceiling,
 /area/space)
 "ciC" = (
-/obj/item/flame/candle/black{
-	pixel_x = -9;
+/obj/item/flame/candle/everburn/black{
+	pixel_x = -11;
 	pixel_y = -11
 	},
 /turf/simulated/floor/roguetown/grass/two,
@@ -8967,7 +8968,7 @@
 /turf/simulated/wall/prepainted,
 /area/hallway/d3afthall/endeavour)
 "gvm" = (
-/obj/item/flame/candle/black,
+/obj/item/flame/candle/everburn/black,
 /turf/simulated/floor/roguetown/grass/one,
 /area/hydroponics/garden)
 "gvA" = (
@@ -27329,9 +27330,9 @@
 /turf/simulated/wall/prepainted,
 /area/hallway/d3fwdportmaint/endeavour)
 "tTP" = (
-/obj/item/flame/candle/black{
-	pixel_y = -11;
-	pixel_x = 9
+/obj/item/flame/candle/everburn/black{
+	pixel_x = 11;
+	pixel_y = -11
 	},
 /turf/simulated/floor/roguetown/grass/two,
 /area/hydroponics/garden)
