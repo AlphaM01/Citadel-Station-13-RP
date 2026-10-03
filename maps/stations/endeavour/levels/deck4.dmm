@@ -949,6 +949,11 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos)
+"aNA" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/item/stool/halloween,
+/turf/simulated/floor/roguetown/carpet,
+/area/crew_quarters/bar)
 "aOp" = (
 /obj/structure/table/steel,
 /obj/item/aicard,
@@ -1275,10 +1280,10 @@
 /turf/simulated/floor/roguetown/herringbone,
 /area/crew_quarters/bar)
 "bcK" = (
-/obj/item/stool/padded,
 /obj/machinery/computer/security/telescreen{
 	pixel_y = -32
 	},
+/obj/item/stool/halloween/two,
 /turf/simulated/floor/roguetown/herringbone,
 /area/crew_quarters/bar)
 "bcN" = (
@@ -2481,6 +2486,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/d4portafthall/endeavour)
+"chH" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/item/stool/halloween/two,
+/turf/simulated/floor/roguetown/carpet,
+/area/crew_quarters/bar)
 "chW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4044,13 +4056,13 @@
 /area/station/engineering/substation/deck4aft/endeavour)
 "dzC" = (
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/item/stool/padded,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/item/stool/halloween/two,
 /turf/simulated/floor/roguetown/carpet,
 /area/crew_quarters/bar)
 "dzG" = (
@@ -6741,7 +6753,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/engineering/atmos/eva)
 "fUv" = (
-/obj/item/stool/padded,
+/obj/item/stool/halloween,
 /turf/simulated/floor/roguetown/herringbone,
 /area/crew_quarters/bar)
 "fUC" = (
@@ -6965,10 +6977,10 @@
 /turf/simulated/floor/plating,
 /area/hallway/d4aftstrbdmaint/endeavour)
 "gbN" = (
-/obj/item/stool/padded,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/item/stool/halloween/two,
 /turf/simulated/floor/roguetown/carpet,
 /area/crew_quarters/bar)
 "gbZ" = (
@@ -9935,10 +9947,10 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/d4fwdhall/endeavour)
 "iOI" = (
-/obj/item/stool/padded,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
+/obj/item/stool/halloween,
 /turf/simulated/floor/roguetown/carpet,
 /area/crew_quarters/bar)
 "iOU" = (
@@ -12568,8 +12580,8 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_smes)
 "lkR" = (
-/obj/item/stool/padded,
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/item/stool/halloween/two,
 /turf/simulated/floor/roguetown/carpet,
 /area/crew_quarters/bar)
 "lkX" = (
@@ -15383,11 +15395,8 @@
 /turf/simulated/floor/roguetown/herringbone,
 /area/crew_quarters/bar)
 "nBT" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 4
-	},
-/obj/item/stool/padded,
-/turf/simulated/floor/roguetown/carpet,
+/obj/item/stool/halloween/two,
+/turf/simulated/floor/roguetown/herringbone,
 /area/crew_quarters/bar)
 "nCQ" = (
 /obj/machinery/door/firedoor/glass{
@@ -20922,6 +20931,13 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/d4porthall/endeavour)
+"tjQ" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/item/stool/halloween,
+/turf/simulated/floor/roguetown/carpet,
+/area/crew_quarters/bar)
 "tkJ" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/corner/navblue/border,
@@ -21461,7 +21477,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/item/stool/padded,
+/obj/item/stool/halloween,
 /turf/simulated/floor/roguetown/carpet,
 /area/crew_quarters/bar)
 "tLQ" = (
@@ -23682,7 +23698,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/item/stool/padded,
+/obj/item/stool/halloween,
 /turf/simulated/floor/roguetown/carpet,
 /area/crew_quarters/bar)
 "vHi" = (
@@ -45287,9 +45303,9 @@ bZe
 piY
 dkJ
 uhX
+tjQ
 gbN
-gbN
-gbN
+tjQ
 gbN
 lSy
 pea
@@ -45485,7 +45501,7 @@ ddZ
 tHx
 ddZ
 tHx
-lkR
+aNA
 azA
 hHC
 qaT
@@ -45873,7 +45889,7 @@ kdD
 hst
 xQe
 pXp
-lkR
+aNA
 azA
 skQ
 xjc
@@ -46261,7 +46277,7 @@ uXQ
 pXf
 tBY
 oDa
-lkR
+aNA
 azA
 uXQ
 uXQ
@@ -46644,10 +46660,10 @@ vgB
 cEa
 xQe
 vAi
-nBT
 iOI
+chH
 iOI
-iOI
+chH
 iOI
 sEp
 nOh
@@ -47039,7 +47055,7 @@ vig
 mLD
 uXQ
 fUv
-fUv
+nBT
 fUv
 bcK
 iFT

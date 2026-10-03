@@ -1782,6 +1782,7 @@
 /area/hydroponics/garden)
 "bmF" = (
 /obj/structure/flora/pottedplant/stoutbush,
+/obj/effect/debris/cleanable/cobweb2,
 /turf/simulated/floor/roguetown/herringbone,
 /area/crew_quarters/game_room)
 "bnk" = (
@@ -23766,6 +23767,11 @@
 /obj/structure/flora/pottedplant/minitree,
 /turf/simulated/floor/wood,
 /area/station/mining/breakroom/endeavour)
+"rpG" = (
+/obj/structure/table/bench/wooden,
+/obj/effect/debris/cleanable/cobweb,
+/turf/simulated/floor/roguetown/cobblestone,
+/area/hydroponics/garden)
 "rpS" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 8
@@ -23831,6 +23837,10 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/hallway/d3afthall/endeavour)
+"rtf" = (
+/obj/effect/debris/cleanable/cobweb2,
+/turf/simulated/floor/roguetown/cobblestone2,
+/area/hydroponics/garden)
 "rtp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -24778,6 +24788,10 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/pool)
+"scE" = (
+/obj/effect/debris/cleanable/cobweb,
+/turf/simulated/floor/roguetown/grass/one,
+/area/hydroponics/garden)
 "scZ" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -25914,6 +25928,11 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/pool)
+"sPk" = (
+/obj/structure/table/bench/wooden,
+/obj/effect/debris/cleanable/cobweb2,
+/turf/simulated/floor/roguetown/cobblestone3,
+/area/hydroponics/garden)
 "sPv" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/white,
@@ -28911,6 +28930,7 @@
 /area/maintenance/starboardsolar)
 "vfr" = (
 /obj/machinery/vending/hydroseeds,
+/obj/effect/debris/cleanable/cobweb2,
 /turf/simulated/floor/roguetown/cobblestone3,
 /area/hydroponics/garden)
 "vfE" = (
@@ -32683,6 +32703,7 @@
 	},
 /obj/item/deck/tarot,
 /obj/structure/table/hardwoodtable,
+/obj/effect/debris/cleanable/cobweb,
 /turf/simulated/floor/roguetown/carpet,
 /area/crew_quarters/game_room)
 "xEC" = (
@@ -50939,7 +50960,7 @@ goy
 eyy
 fLj
 ozQ
-mlv
+scE
 gYb
 uni
 mlv
@@ -52295,7 +52316,7 @@ hDR
 fLj
 eyy
 hJb
-nuP
+rpG
 hXO
 itY
 cqZ
@@ -53459,7 +53480,7 @@ eyy
 eyy
 fLj
 hJb
-vge
+sPk
 pDx
 itY
 cqZ
@@ -54043,7 +54064,7 @@ xtw
 eyy
 eyy
 hJb
-itY
+rtf
 cqZ
 emK
 emK

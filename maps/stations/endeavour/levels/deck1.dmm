@@ -12434,7 +12434,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/item/stool/padded,
+/obj/item/stool/halloween/two,
 /turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "jie" = (
@@ -21215,7 +21215,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/item/stool/padded,
+/obj/item/stool/halloween,
 /turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "pnz" = (
@@ -21773,6 +21773,16 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/excursion/endeavour/general)
+"pMi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/item/stool/halloween,
+/turf/simulated/floor/roguetown/wood,
+/area/crew_quarters/coffee_shop)
 "pMo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -24563,7 +24573,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/hallway/d1starboardamidhall/endeavour)
 "rHN" = (
-/obj/item/stool/padded,
+/obj/item/stool/halloween,
 /turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "rJn" = (
@@ -28039,7 +28049,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/obj/item/stool/padded,
+/obj/item/stool/halloween,
 /turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "ugI" = (
@@ -29210,7 +29220,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/stool/padded,
+/obj/item/stool/halloween/two,
 /turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "uRZ" = (
@@ -52738,7 +52748,7 @@ uaP
 icA
 pzu
 veS
-uRN
+pMi
 pcO
 hbb
 gIz
