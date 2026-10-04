@@ -1,0 +1,4 @@
+author: "Shadowtail117"
+delete-after: True
+changes:
+  - bugfix: "You can no longer telekinetically flip gun safeties."
