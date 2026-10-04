@@ -6372,13 +6372,6 @@
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled,
 /area/rnd/anomaly_lab)
-"ekC" = (
-/obj/structure/disposalpipe/junction{
-	dir = 8;
-	icon_state = "pipe-j2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/medical/sleeper)
 "ekI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7506,11 +7499,10 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/station/medical/virology_fore_access/endeavour)
 "eZX" = (
-/obj/structure/disposalpipe/junction{
-	dir = 8;
-	icon_state = "pipe-j2"
-	},
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on,
+/obj/structure/disposalpipe/junction/flipped{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay3)
 "fby" = (
@@ -9972,9 +9964,8 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay3)
 "gMR" = (
-/obj/structure/disposalpipe/junction{
-	dir = 8;
-	icon_state = "pipe-j2"
+/obj/structure/disposalpipe/junction/flipped{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/d2fwdhall/endeavour)
@@ -22428,7 +22419,7 @@
 /area/hallway/forward_stairs_two/endeavour)
 "pLW" = (
 /obj/structure/table/woodentable,
-/obj/item/storage/fancy/heartbox,
+/obj/item/book/manual/halloween,
 /turf/simulated/floor/carpet,
 /area/hallway/d2fwdportmaint/endeavour)
 "pMc" = (
@@ -22744,9 +22735,8 @@
 "pVI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/disposalpipe/junction{
-	dir = 8;
-	icon_state = "pipe-j2"
+/obj/structure/disposalpipe/junction/flipped{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay3)
@@ -48121,7 +48111,7 @@ piY
 rPP
 ihi
 fIS
-ekC
+lWJ
 qHA
 lfj
 lfj
