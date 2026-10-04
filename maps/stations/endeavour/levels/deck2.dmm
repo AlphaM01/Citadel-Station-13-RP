@@ -34352,9 +34352,16 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/item/folder/white_cmo,
-/obj/item/stamp/cmo,
 /obj/structure/disposalpipe/segment{
 	dir = 1
+	},
+/obj/item/stamp/denied{
+	pixel_x = 15;
+	pixel_y = 5
+	},
+/obj/item/stamp/cmo{
+	pixel_x = 15;
+	pixel_y = -2
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/cmo)
