@@ -4661,7 +4661,7 @@
 "dec" = (
 /obj/structure/table/woodentable,
 /obj/item/storage/box/glasses/meta,
-/obj/item/clothing/gloves/black,
+/obj/item/flame/candle/candelabra/everburn,
 /turf/simulated/floor/wood,
 /area/hallway/d2fwdportmaint/endeavour)
 "deu" = (
@@ -15683,7 +15683,9 @@
 /area/hallway/d2fwdhall/endeavour)
 "kYT" = (
 /obj/structure/table/woodentable,
-/obj/machinery/chemical_dispenser/catering/bar_coffee,
+/obj/machinery/chemical_dispenser/catering/bar_coffee{
+	dir = 8
+	},
 /turf/simulated/floor/wood,
 /area/hallway/d2fwdportmaint/endeavour)
 "kZh" = (
@@ -22419,6 +22421,9 @@
 /area/hallway/forward_stairs_two/endeavour)
 "pLW" = (
 /obj/structure/table/woodentable,
+/obj/item/book/manual/halloween{
+	pixel_y = -4
+	},
 /turf/simulated/floor/carpet,
 /area/hallway/d2fwdportmaint/endeavour)
 "pMc" = (
@@ -32087,10 +32092,6 @@
 /obj/item/storage/fancy/vials,
 /turf/simulated/floor/tiled,
 /area/medical/medbay_primary_storage)
-"wHi" = (
-/obj/machinery/light/flamp,
-/turf/simulated/floor/wood,
-/area/hallway/d2fwdportmaint/endeavour)
 "wHl" = (
 /obj/structure/morgue,
 /obj/machinery/light{
@@ -34193,7 +34194,7 @@
 /area/hallway/d2amidportmaint/endeavour)
 "ybY" = (
 /obj/structure/table/woodentable,
-/obj/item/storage/box/matches,
+/obj/item/flame/candle/candelabra/everburn,
 /turf/simulated/floor/wood,
 /area/hallway/d2fwdportmaint/endeavour)
 "ycn" = (
@@ -58763,7 +58764,7 @@ bKn
 ybY
 lWE
 blx
-wHi
+blx
 egx
 qjz
 sUV
@@ -59147,7 +59148,7 @@ qjz
 qjz
 ruN
 vJM
-wHi
+blx
 blx
 hDT
 pLW
@@ -59539,7 +59540,7 @@ dec
 kYT
 ryc
 blx
-wHi
+blx
 egx
 jak
 qjz

@@ -10267,12 +10267,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/substation/dock)
 "hyg" = (
-/obj/structure/disposalpipe/junction{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/obj/structure/disposalpipe/junction/flipped,
 /turf/simulated/floor/roguetown/wood,
 /area/crew_quarters/coffee_shop)
 "hyE" = (

@@ -32597,10 +32597,10 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/structure/flora/pottedplant/orientaltree,
 /obj/machinery/camera/network/civilian{
 	dir = 8
 	},
+/obj/structure/flora/pottedplant/stoutbush,
 /turf/simulated/floor/glass/reinforced,
 /area/hydroponics/garden)
 "xCL" = (
