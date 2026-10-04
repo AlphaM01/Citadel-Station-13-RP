@@ -22419,7 +22419,6 @@
 /area/hallway/forward_stairs_two/endeavour)
 "pLW" = (
 /obj/structure/table/woodentable,
-/obj/item/book/manual/halloween,
 /turf/simulated/floor/carpet,
 /area/hallway/d2fwdportmaint/endeavour)
 "pMc" = (
