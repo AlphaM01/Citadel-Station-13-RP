@@ -18,3 +18,8 @@
   TheLordME:
   - tweak: tweaked admin verb "Manual Play Internet Sound" to make it possible to
       edit the title
+2026-10-05:
+  Shadowtail117:
+  - bugfix: Coughing and sneezing now make sounds again.
+  - bugfix: Emotes with sounds will no longer also play runechat sfx when used.
+  - bugfix: You can no longer telekinetically flip gun safeties.
